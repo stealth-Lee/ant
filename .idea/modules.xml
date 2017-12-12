@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ant.iml" filepath="$PROJECT_DIR$/ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-common/ant-common.iml" filepath="$PROJECT_DIR$/ant-common/ant-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-components/ant-components.iml" filepath="$PROJECT_DIR$/ant-components/ant-components.iml" />
+    </modules>
+  </component>
+</project>
