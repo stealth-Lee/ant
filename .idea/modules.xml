@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/ant.iml" filepath="$PROJECT_DIR$/ant.iml" />
       <module fileurl="file://$PROJECT_DIR$/ant-common/ant-common.iml" filepath="$PROJECT_DIR$/ant-common/ant-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ant-components/ant-components.iml" filepath="$PROJECT_DIR$/ant-components/ant-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-project/ant-project.iml" filepath="$PROJECT_DIR$/ant-project/ant-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-project/ant-project-school/ant-project-school.iml" filepath="$PROJECT_DIR$/ant-project/ant-project-school/ant-project-school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-project/ant-project-silence/ant-project-silence.iml" filepath="$PROJECT_DIR$/ant-project/ant-project-silence/ant-project-silence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant-tools/ant-tools.iml" filepath="$PROJECT_DIR$/ant-tools/ant-tools.iml" />
     </modules>
   </component>
 </project>
