@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by s.l on 2017/12/27 15:14.
  */
 @Controller
+@RequestMapping("user")
 public class UserWeb extends BasicWeb {
 
     @ResponseBody
@@ -20,7 +21,7 @@ public class UserWeb extends BasicWeb {
 
     @RequestMapping(value = "index")
     public String index() {
-        return "index";
+        return "index/index";
     }
 
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Home</title>
+    <title>苏音唯美-爱泷不悔</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content=""/>
@@ -33,10 +33,10 @@
 
         <!--logo and iconic logo start-->
         <div class="logo">
-            <h1><a href="index.html">Mosai<span>c</span></a></h1>
+            <h1><a href="index.jsp">silence.<span>w</span></a></h1>
         </div>
         <div class="logo-icon text-center">
-            <a href="index.html">M </a>
+            <a href="index.jsp">W </a>
         </div>
 
         <!--logo and iconic logo end-->
@@ -44,28 +44,28 @@
 
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav">
-                <li class="active"><a href="index.html"><i class="lnr lnr-home"></i><span>Home</span></a></li>
-                <li><a href="radio.html"><i class="camera"></i> <span>Radio</span></a></li>
+                <li class="active"><a href="index.jsp"><i class="lnr lnr-home"></i><span>主页</span></a></li>
+                <li><a href="../radio.html"><i class="camera"></i> <span>单曲</span></a></li>
                 <li><a href="#" data-toggle="modal" data-target="#myModal1"><i
-                        class="fa fa-th"></i><span>Apps</span></a></li>
-                <li><a href="radio.html"><i class="lnr lnr-users"></i> <span>Artists</span></a></li>
-                <li><a href="browse.html"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>
-                <li class="menu-list"><a href="browse.html"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>
+                        class="fa fa-th"></i><span>专辑</span></a></li>
+                <li><a href="../radio.html"><i class="lnr lnr-users"></i> <span>MV</span></a></li>
+                <li><a href="../browse.html"><i class="lnr lnr-music-note"></i> <span>直播</span></a></li>
+                <li class="menu-list"><a href="../browse.html"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>
                     <ul class="sub-menu-list">
-                        <li><a href="browse.html">Artists</a></li>
-                        <li><a href="404.html">Services</a></li>
+                        <li><a href="../browse.html">Artists</a></li>
+                        <li><a href="../404.html">Services</a></li>
                     </ul>
                 </li>
-                <li><a href="blog.html"><i class="lnr lnr-book"></i><span>Blog</span></a></li>
-                <li><a href="typography.html"><i class="lnr lnr-pencil"></i> <span>Typography</span></a></li>
+                <li><a href="../blog.html"><i class="lnr lnr-book"></i><span>Blog</span></a></li>
+                <li><a href="../typography.html"><i class="lnr lnr-pencil"></i> <span>Typography</span></a></li>
                 <li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i> <span>My Favourities</span></a>
                     <ul class="sub-menu-list">
-                        <li><a href="radio.html">All Songs</a></li>
+                        <li><a href="../radio.html">All Songs</a></li>
                     </ul>
                 </li>
-                <li class="menu-list"><a href="contact.html"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
+                <li class="menu-list"><a href="../contact.html"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
                     <ul class="sub-menu-list">
-                        <li><a href="contact.html">Location</a></li>
+                        <li><a href="../contact.html">Location</a></li>
                     </ul>
                 </li>
             </ul>
@@ -110,8 +110,9 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-info">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body modal-spa">
                     <div class="sign-grids">
@@ -124,25 +125,23 @@
                                 </ul>
                             </div>
                             <div class="sign-right">
-                                <form action="#" method="post">
-
-                                    <h3>Create your account </h3>
-                                    <input type="text" value="Name" onfocus="this.value = '';"
-                                           onblur="if (this.value == '') {this.value = 'Name';}" required=""/>
-                                    <input type="text" value="Mobile number" onfocus="this.value = '';"
-                                           onblur="if (this.value == '') {this.value = 'Mobile number';}" required=""/>
-                                    <input type="text" value="Email id" onfocus="this.value = '';"
-                                           onblur="if (this.value == '') {this.value = 'Email id';}" required=""/>
-                                    <input type="password" value="Password" onfocus="this.value = '';"
+                                <form action="/ant/silence/sys/signup" method="post">
+                                    <h3>欢迎注册账号 </h3>
+                                    <input name="nickname" type="text" value="昵称" onfocus="this.value = '';"
+                                           onblur="if (this.value == '') {this.value = '昵称';}" required=""/>
+                                    <input name="mobile" type="text" value="手机号" onfocus="this.value = '';"
+                                           onblur="if (this.value == '') {this.value = '手机号';}" required=""/>
+                                    <input name="email" type="text" value="电子邮箱" onfocus="this.value = '';"
+                                           onblur="if (this.value == '') {this.value = '电子邮箱';}" required=""/>
+                                    <input name="password" type="password" value="Password" onfocus="this.value = '';"
                                            onblur="if (this.value == '') {this.value = 'Password';}" required=""/>
-
-                                    <input type="submit" value="CREATE ACCOUNT"/>
+                                    <input type="submit" value="立即注册"/>
                                 </form>
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                        <p>By logging in you agree to our <span>Terms and Conditions</span> and
-                            <span>Privacy Policy</span></p>
+                        <p>我已阅读并同意相关 <span>服务条款</span> 和
+                            <span>隐私政策</span></p>
                     </div>
                 </div>
             </div>
@@ -215,31 +214,29 @@
                         </ul>
                     </div>
                     <div class="col-md-4 login-pop">
-                        <div id="loginpop"><a href="#" id="loginButton"><span>Login <i
-                                class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign"
-                                                                                                  href="#"
-                                                                                                  data-toggle="modal"
-                                                                                                  data-target="#myModal5"><i
-                                class="fa fa-sign-in"></i></a>
+                        <div id="loginpop">
+                            <a href="#" id="loginButton"><span>登录 <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
+                            <!--<a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>-->
                             <div id="loginBox">
                                 <form action="#" method="post" id="loginForm">
                                     <fieldset id="body">
                                         <fieldset>
-                                            <label for="email">Email Address</label>
+                                            <label for="email">电子邮箱</label>
                                             <input type="text" name="email" id="email"/>
                                         </fieldset>
                                         <fieldset>
-                                            <label for="password">Password</label>
+                                            <label for="password">密码</label>
                                             <input type="password" name="password" id="password"/>
                                         </fieldset>
-                                        <input type="submit" id="login" value="Sign in"/>
-                                        <label for="checkbox"><input type="checkbox" id="checkbox"/> <i>Remember me</i></label>
+                                        <input type="submit" id="login" value="登录"/>
+                                        <label for="checkbox"><input type="checkbox" id="checkbox"/> <i>记住我</i></label>
                                     </fieldset>
-                                    <span><a href="#">Forgot your password?</a></span>
+                                    <span><a href="#">忘记密码?</a></span>|
+                                    <span><a href="#" data-toggle="modal" data-target="#myModal5">注册新账号</a></span>|
+                                    <span><a href="#">意见反馈</a></span>
                                 </form>
                             </div>
                         </div>
-
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -263,35 +260,30 @@
                                             <img th:src="@{/static/index/images/11.jpg}" class="img-responsive" alt=""/>
                                         </div>
                                         <div class="banner-info">
-                                            <a class="trend" href="single.html">TRENDING</a>
-                                            <h3>Let Your Home</h3>
-                                            <p>Album by <span>Rock star</span></p>
+                                            <a class="trend" href="../single.html">点击查看</a>
+                                            <h3>传世乐章</h3>
+                                            <p>专辑来自 <span>汪苏泷</span></p>
                                         </div>
-
                                     </li>
                                     <li>
                                         <div class="banner-img">
                                             <img th:src="@{/static/index/images/22.jpg}" class="img-responsive" alt=""/>
                                         </div>
                                         <div class="banner-info">
-                                            <a class="trend" href="single.html">TRENDING</a>
-                                            <h3>Charis Brown feet</h3>
-                                            <p>Album by <span>Rock star</span></p>
+                                            <a class="trend" href="../single.html">点击查看</a>
+                                            <h3>慢慢懂</h3>
+                                            <p>专辑来自 <span>汪苏泷</span></p>
                                         </div>
-
-
                                     </li>
                                     <li>
                                         <div class="banner-img">
                                             <img th:src="@{/static/index/images/33.jpg}" class="img-responsive" alt=""/>
                                         </div>
                                         <div class="banner-info">
-                                            <a class="trend" href="single.html">TRENDING</a>
-                                            <h3>Let Your Home</h3>
-                                            <p>Album by <span>Rock star</span></p>
+                                            <a class="trend" href="../single.html">点击查看</a>
+                                            <h3>万有引力</h3>
+                                            <p>专辑来自 <span>汪苏泷</span></p>
                                         </div>
-
-
                                     </li>
                                 </ul>
                             </div>
@@ -343,13 +335,13 @@
                     <!--//pop-up-box -->
                     <div class="albums">
                         <div class="tittle-head">
-                            <h3 class="tittle">New Releases <span class="new">New</span></h3>
-                            <a href="index.html"><h4 class="tittle">See all</h4></a>
+                            <h3 class="tittle">新歌速递 <span class="new">New</span></h3>
+                            <a href="index.jsp"><h4 class="tittle">查看全部</h4></a>
                             <div class="clearfix"></div>
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v1.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/song/v1.png}" title="allbum-name"/></a>
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div id="small-dialog" class="mfp-hide">
@@ -358,25 +350,25 @@
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v2.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v2.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v3.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v3.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="col-md-3 content-grid last-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v4.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v4.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v5.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v5.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
@@ -385,19 +377,19 @@
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v6.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v6.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="col-md-3 content-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v7.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v7.jpg}" title="allbum-name"/></a>
 
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="col-md-3 content-grid last-grid">
                             <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
-                                    th:src="@{/static/images/v8.jpg}" title="allbum-name"/></a>
+                                    th:src="@{/static/index/images/v8.jpg}" title="allbum-name"/></a>
                             <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                         </div>
                         <div class="clearfix"></div>
@@ -407,40 +399,40 @@
                     <div class="albums second">
                         <div class="tittle-head">
                             <h3 class="tittle">Discover <span class="new">View</span></h3>
-                            <a href="index.html"><h4 class="tittle two">See all</h4></a>
+                            <a href="index.jsp"><h4 class="tittle two">See all</h4></a>
                             <div class="clearfix"></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v11.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v11.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v22.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v22.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v33.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v33.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid last-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v44.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v44.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v55.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v55.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v66.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v66.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v11.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v11.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="col-md-3 content-grid last-grid">
-                            <a href="single.html"><img th:src="@{/static/index/images/v22.jpg}" title="allbum-name"/></a>
-                            <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                            <a href="../single.html"><img th:src="@{/static/index/images/v22.jpg}" title="allbum-name"/></a>
+                            <div class="inner-info"><a href="../single.html"><h5>Pop</h5></a></div>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -460,7 +452,7 @@
                                              style="width: 480px; height: 270px; display: inline;"/>
                                         <video id="jp_video_0" preload="metadata"
                                                src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Ellie-Goulding.webm"
-                                               title="1. Ellie-Goulding" style="width: 0px; height: 0px;"></video>
+                                               title="1. 不分手的恋爱" style="width: 0px; height: 0px;"></video>
                                     </div>
                                     <div class="jp-gui">
                                         <div class="jp-video-play" style="display: block;">
@@ -497,7 +489,7 @@
                                                 </div>
                                             </div>
                                             <div class="jp-details" style="display: none;">
-                                                <div class="jp-title" aria-label="title">1. Ellie-Goulding</div>
+                                                <div class="jp-title" aria-label="title">1. 不分手的恋爱</div>
                                             </div>
                                         </div>
                                     </div>
@@ -507,7 +499,7 @@
                                                 <div><a href="javascript:;" class="jp-playlist-item-remove"
                                                         style="display: none;">×</a><a href="javascript:;"
                                                                                        class="jp-playlist-item jp-playlist-current"
-                                                                                       tabindex="0">1. Ellie-Goulding
+                                                                                       tabindex="0">1. 不分手的恋爱
                                                     <span class="jp-artist">by Pixar</span></a></div>
                                             </li>
                                             <li>
@@ -578,7 +570,7 @@
                             }, [
 
                                 {
-                                    title: "1. Ellie-Goulding",
+                                    title: "1. 不分手的恋爱",
                                     artist: "",
                                     mp4: "video/Ellie-Goulding.mp4",
                                     ogv: "video/Ellie-Goulding.ogv",
@@ -688,7 +680,7 @@
                                             <div class="clearfix"></div>
                                         </li>
                                     </ul>
-                                    <a href="single.html" class="price">Upgrade</a>
+                                    <a href="../single.html" class="price">Upgrade</a>
                                 </div>
                             </div>
                             <div class="pricing two">
@@ -715,7 +707,7 @@
                                             <div class="clearfix"></div>
                                         </li>
                                     </ul>
-                                    <a href="single.html" class="price">Upgrade</a>
+                                    <a href="../single.html" class="price">Upgrade</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -730,77 +722,77 @@
             <!--body wrapper start-->
             <div class="review-slider">
                 <div class="tittle-head">
-                    <h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
+                    <h3 class="tittle">精选专辑 <span class="new"> New</span></h3>
                     <div class="clearfix"></div>
                 </div>
                 <ul id="flexiselDemo1">
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v1.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v1.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Adele21 </h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v2.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v2.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Adele21</h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v3.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v3.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Shomlock</h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v4.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v4.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Stuck on a feeling</h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v5.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v5.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Ricky Martine </h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v6.jpg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v6.jpg}" alt=""/></a>
                         <div class="slide-title"><h4>Ellie Goluding </h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="single.html"><img th:src="@{/static/index/images/v6.jpeg}" alt=""/></a>
+                        <a href="../single.html"><img th:src="@{/static/index/images/v6.jpeg}" alt=""/></a>
                         <div class="slide-title"><h4>Fifty Shades </h4></div>
                         <div class="date-city">
                             <h5>Jan-02-16</h5>
                             <div class="buy-tickets">
-                                <a href="single.html">READ MORE</a>
+                                <a href="../single.html">READ MORE</a>
                             </div>
                         </div>
                     </li>
@@ -842,64 +834,62 @@
     <!--body wrapper end-->
     <div class="footer">
         <div class="footer-grid">
-            <h3>Navigation</h3>
+            <h3>导航栏</h3>
             <ul class="list1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="radio.html">All Songs</a></li>
-                <li><a href="browse.html">Albums</a></li>
-                <li><a href="radio.html">New Collections</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.jsp">主页</a></li>
+                <li><a href="../radio.html">单曲</a></li>
+                <li><a href="../browse.html">专辑</a></li>
+                <li><a href="../radio.html">MV</a></li>
+                <li><a href="../blog.html">直播</a></li>
+                <li><a href="../contact.html">博客</a></li>
             </ul>
         </div>
         <div class="footer-grid">
-            <h3>Our Account</h3>
+            <h3>友情链接</h3>
             <ul class="list1">
-                <li><a href="#" data-toggle="modal" data-target="#myModal5">Your Account</a></li>
-                <li><a href="#">Personal information</a></li>
-                <li><a href="#">Addresses</a></li>
-                <li><a href="#">Discount</a></li>
-                <li><a href="#">Orders history</a></li>
-                <li><a href="#">Addresses</a></li>
-                <li><a href="#">Search Terms</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal5">版主空间</a></li>
+                <li><a target="_blank" href="https://y.qq.com/">QQ音乐</a></li>
+                <li><a target="_blank" href="http://music.163.com/">网易云音乐</a></li>
+                <li><a target="_blank" href="http://www.xiami.com/">虾米音乐</a></li>
+                <li><a target="_blank" href="http://www.kugou.com/">酷狗音乐</a></li>
+                <li><a target="_blank" href="http://music.baidu.com/">百度音乐</a></li>
+                <li><a target="_blank" href="http://www.kuwo.cn/">酷我音乐</a></li>
             </ul>
         </div>
         <div class="footer-grid">
-            <h3>Our Support</h3>
+            <h3>帮助中心</h3>
             <ul class="list1">
-                <li><a href="contact.html">Site Map</a></li>
-                <li><a href="#">Search Terms</a></li>
-                <li><a href="#">Advanced Search</a></li>
-                <li><a href="#">Mobile</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="#">Mobile</a></li>
-                <li><a href="#">Addresses</a></li>
+                <li><a href="../contact.html">用户常见问题</a></li>
+                <li><a href="#">文件下载</a></li>
+                <li><a href="#">意见收集</a></li>
+                <li><a href="../contact.html">联系我们</a></li>
+                <li><a href="#">人才招聘</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">著作权声明</a></li>
             </ul>
         </div>
         <div class="footer-grid">
-            <h3>Newsletter</h3>
-            <p class="footer_desc">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat</p>
+            <h3>意见反馈</h3>
+            <p class="footer_desc">您的意见对我们非常重要,如若对此网站有任何问题，欢迎留下您的邮箱，我们会尽快与你取得联系</p>
             <div class="search_footer">
                 <form>
                     <input type="text" placeholder="Email...." required=""/>
-                    <input type="submit" value="Submit"/>
+                    <input type="submit" value="提交"/>
                 </form>
             </div>
         </div>
         <div class="footer-grid footer-grid_last">
-            <h3>About Us</h3>
-            <p class="footer_desc">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                enim ad minim veniam,.</p>
-            <p class="f_text">Phone: &nbsp;&nbsp;&nbsp;00-250-2131</p>
-            <p class="email">Email : &nbsp;<span><a href="mailto:mail@example.com">info(at)mailing.com</a></span></p>
+            <h3>关于我们</h3>
+            <p class="footer_desc">网站前台页面均来自网络,版权归原作者所有.如有侵权请立即与我们联系,我们将及时处理,联系方式如下:</p>
+            <p class="f_text">电话: &nbsp;&nbsp;&nbsp;15230297756</p>
+            <p class="email">邮箱 : &nbsp;<span><a href="mailto:314975605@qq.com">314975605@qq.com</a></span></p>
         </div>
         <div class="clearfix"></div>
     </div>
     </div>
     <!--footer section start-->
     <footer>
-        <p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+        <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="https://user.qzone.qq.com/314975605/infocenter">李建章</a>
         </p>
     </footer>
     <!--footer section end-->
