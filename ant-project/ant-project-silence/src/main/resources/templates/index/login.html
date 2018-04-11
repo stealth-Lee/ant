@@ -1,0 +1,27 @@
+<section xmlns:th="http://www.thymeleaf.org">
+<div class="col-md-4 login-pop" th:fragment="login">
+    <div id="loginpop">
+        <a href="#" id="loginButton"><span>登录 <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
+        <!--<a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>-->
+        <div id="loginBox">
+            <form action="#" method="post" id="loginForm">
+                <fieldset id="body">
+                    <fieldset>
+                        <label for="email">电子邮箱</label>
+                        <input type="text" name="email" id="email"/>
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">密码</label>
+                        <input type="password" name="password" id="password"/>
+                    </fieldset>
+                    <input type="submit" id="login" value="登录"/>
+                    <label for="checkbox"><input type="checkbox" id="checkbox"/> <i>记住我</i></label>
+                </fieldset>
+                <span><a href="#">忘记密码?</a></span>|
+                <span><a href="#" data-toggle="modal" data-target="#myModal5">注册账号</a></span>|
+                <span><a href="#">意见反馈</a></span>
+            </form>
+        </div>
+    </div>
+</div>
+</section>

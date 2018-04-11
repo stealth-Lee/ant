@@ -1,4 +1,4 @@
-<body  xmlns:th="http://www.thymeleaf.org">
+<section  xmlns:th="http://www.thymeleaf.org">
     <!-- header-starts -->
     <div class="header-section"  th:fragment="header">
         <!--toggle button start-->
@@ -60,31 +60,7 @@
                         <li><a class="ar2" href="#"><img th:src="@{/static/index/images/arrow2.png}" alt=""/></a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 login-pop">
-                    <div id="loginpop">
-                        <a href="#" id="loginButton"><span>登录 <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
-                        <!--<a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>-->
-                        <div id="loginBox">
-                            <form action="#" method="post" id="loginForm">
-                                <fieldset id="body">
-                                    <fieldset>
-                                        <label for="email">电子邮箱</label>
-                                        <input type="text" name="email" id="email"/>
-                                    </fieldset>
-                                    <fieldset>
-                                        <label for="password">密码</label>
-                                        <input type="password" name="password" id="password"/>
-                                    </fieldset>
-                                    <input type="submit" id="login" value="登录"/>
-                                    <label for="checkbox"><input type="checkbox" id="checkbox"/> <i>记住我</i></label>
-                                </fieldset>
-                                <span><a href="#">忘记密码?</a></span>|
-                                <span><a href="#" data-toggle="modal" data-target="#myModal5">注册新账号</a></span>|
-                                <span><a href="#">意见反馈</a></span>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <div th:replace="/index/login :: login"></div>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -93,4 +69,4 @@
     <!--notification menu end -->
     <!-- //header-ends -->
     <!-- //header-ends -->
-</body>
+</section>

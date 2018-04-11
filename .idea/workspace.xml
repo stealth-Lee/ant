@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0a0964-dc67-4c21-8753-a42455dc5bb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/404.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/blog.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/browse.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/browse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/contact.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/radio.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/radio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/single.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/typography.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/typography.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.jsp" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html" afterPath="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,23 +69,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="622" column="28" lean-forward="true" selection-start-line="622" selection-start-column="28" selection-end-line="622" selection-end-column="28" />
+            <state relative-caret-position="242">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="8" />
+              <folding>
+                <element signature="e#452#459#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding>
-                <element signature="e#127#133#0" expanded="true" />
+                <element signature="e#130#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +116,8 @@
       <file leaf-file-name="footer-grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -110,8 +126,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="52" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -120,11 +136,10 @@
       <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding>
-                <element signature="e#2557#2564#1" expanded="true" />
-                <element signature="e#4106#4113#1" expanded="true" />
+                <element signature="e#2560#2567#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,26 +150,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
               <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ant-project.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ant-project/ant-project.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSystemWatcher.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/1.5.9.RELEASE/spring-boot-devtools-1.5.9.RELEASE.jar!/org/springframework/boot/devtools/filewatch/FileSystemWatcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -231,8 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ant-tools/src/test/java/com/ant/tools/test/Test1.java" />
-        <option value="$PROJECT_DIR$/ant-tools/pom.xml" />
         <option value="$PROJECT_DIR$/ant-common/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/ant-project/ant-project-school/src/main/java/com/ant/AntProjectSchoolApplication.java" />
         <option value="$PROJECT_DIR$/ant-common/src/main/java/com/ant/common/basic/dao/BasicDao.java" />
@@ -276,11 +269,13 @@
         <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/java/com/ant/SilenceApplication.java" />
         <option value="$PROJECT_DIR$/ant-project/ant-project.iml" />
         <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html" />
         <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.jsp" />
-        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html" />
-        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html" />
         <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html" />
+        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/login.html" />
+        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/signup.html" />
+        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html" />
+        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html" />
+        <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html" />
         <option value="$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html" />
       </list>
     </option>
@@ -763,11 +758,11 @@
       <recent name="com.ant.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ant\ant-project\ant-project-silence\src\main\resources\templates\index" />
       <recent name="D:\ant\ant-project\ant-project-silence\src\main\resources\templates\include" />
       <recent name="D:\ant\ant-project" />
       <recent name="D:\ant\ant-project\ant-project-silence\src\main\resources" />
       <recent name="D:\ant\doc\project" />
-      <recent name="D:\ant\doc\project\silence" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1260,7 +1255,7 @@
       <workItem from="1522732128781" duration="6330000" />
       <workItem from="1523152319513" duration="5131000" />
       <workItem from="1523161426729" duration="6233000" />
-      <workItem from="1523434234906" duration="4214000" />
+      <workItem from="1523434234906" duration="4912000" />
     </task>
     <task id="LOCAL-00001" summary="4.3">
       <created>1522739610542</created>
@@ -1276,7 +1271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523437143233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4.3">
+      <created>1523438531301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523438531301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1312,10 +1314,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153456000" />
+    <option name="totallyTimeSpent" value="154154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1332,7 +1335,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40589198" sideWeight="0.49546143" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.49546143" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1343,7 +1346,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.4969743" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.48735633" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.48735633" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27155825" sideWeight="0.5126437" order="6" side_tool="true" content_ui="tabs" />
@@ -1372,11 +1375,11 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.49546143" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40589198" sideWeight="0.49546143" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1384,11 +1387,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.4969743" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.48735633" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.48735633" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27155825" sideWeight="0.5126437" order="6" side_tool="true" content_ui="tabs" />
@@ -1418,20 +1421,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/tomcat/util/threads/TaskThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ant-project/ant-project-school/src/main/resources/static/assets/css/test.css" />
     <entry file="file://$PROJECT_DIR$/ant-project/ant-project-school/src/main/resources/templates/index1.html" />
     <entry file="file://$PROJECT_DIR$/ant-project/ant-project-school/src/main/resources/templates/typography.html">
@@ -1741,48 +1730,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html">
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-          <folding>
-            <element signature="e#2557#2564#1" expanded="true" />
-            <element signature="e#4106#4113#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#127#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="22">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="622" column="28" lean-forward="true" selection-start-line="622" selection-start-column="28" selection-end-line="622" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/index/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="e#452#459#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="e#2560#2567#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer-grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant-project/ant-project-silence/src/main/resources/templates/include/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="e#130#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
